@@ -1,0 +1,8 @@
+Sum=`expr $1 + $2`
+echo $Sum
+sub=`expr $1 - $2`
+echo $sub
+mult=`expr $1 \* $2`
+echo $mult
+div=`expr $1 / $2`
+echo $div
